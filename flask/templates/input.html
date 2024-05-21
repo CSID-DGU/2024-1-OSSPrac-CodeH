@@ -4,9 +4,20 @@
     <form action="/result" method="POST">
         <p>Name <input type='text' name='name'></p>
         <p>Student Number <input type='text'name='StudentNumber'></p>
+        <p>University<input type = 'text' name = 'University'></p>
+        <p>Major <input type='text' name='major'></p>
         <p>Gender</p>  <input type='radio' name='gender' value="Male"> Male
         <input type='radio' name='gender' value="Female" checked> Female</p>
-        <p>Major <input type='text' name='major'></p>
+        <p>Email <input type="text" class="email-input" aria-label="Email username" name = 'emailUser'>
+            @
+            <select class="domain-select" aria-label="emailDomain" name='emailDomain'>
+                <option value="" selected disabled hidden>선택</option>
+                <option value="gmail.com">gmail.com</option>
+                <option value="naver.com">naver.com</option>
+                <option value="daum.net">daum.net</option>
+                <option value='dongguk.edu'>dongguk.edu</option>
+                <option value='yahoo.com'>yahoo.com</option>
+            </select>
         <p>Programming Languages</p>
         <input type = 'checkbox' name = 'programmingLanguages' value = "Python"> Python
         <input type = 'checkbox' name = 'programmingLanguages' value = 'Java'> Java
