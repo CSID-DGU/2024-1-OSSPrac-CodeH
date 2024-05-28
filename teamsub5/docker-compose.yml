@@ -6,7 +6,7 @@ services: # 아래는 서비스 정의
    frontapp:                   # service1의 명칭  
       # 서비스 빌드를 위한 정의 내용
       build: ./FrontEnd
-      image: hyunjong00/CodeH
+      image: hyunjong00/codeh
       ports: 
          - 80:80
 
